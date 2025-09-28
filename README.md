@@ -1,4 +1,3 @@
-
 # Rastreo Legal de Usuario
 
 Este proyecto implementa un sistema de rastreo legal de usuarios utilizando HTML y JavaScript. El sistema solicita consentimiento explícito, genera un identificador anónimo (UUID), lo almacena localmente y simula el envío a un servidor para fines de auditoría o análisis.
@@ -35,9 +34,29 @@ Este proyecto implementa un sistema de rastreo legal de usuarios utilizando HTML
 
 ---
 
+## 🌍 Configurar dominio personalizado
+
+1. Compra o registra tu dominio.
+2. Configura los DNS:
+   - Para subdominio (`www.tusitio.com`):  
+     CNAME → `tuusuario.github.io`
+   - Para dominio raíz (`tusitio.com`):  
+     A →  
+     ```
+     185.199.108.153
+     185.199.109.153
+     185.199.110.153
+     185.199.111.153
+     ```
+3. En GitHub, ve a **Settings → Pages → Custom domain**.
+4. Ingresa tu dominio y guarda.
+5. Activa **Enforce HTTPS** si está disponible.
+
+---
+
 ## ⚖️ Consideraciones legales
 
-Este sistema cumple con las buenas prácticas de privacidad:
+Este sistema cumple con buenas prácticas de privacidad:
 
 - No se recolecta información personal como correos o nombres.
 - El ID generado es anónimo y no rastreable externamente.
